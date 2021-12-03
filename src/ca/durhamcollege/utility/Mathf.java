@@ -62,6 +62,9 @@ public class Mathf {
     public static float Sqrt(final float f) {
         return (float) (Math.sqrt(f));
     }
+    public static float Sqrt(final double f) {
+        return (double) (Math.sqrt(f));
+    }
 
     public static float Abs(final float f) {
         return Math.abs(f);
